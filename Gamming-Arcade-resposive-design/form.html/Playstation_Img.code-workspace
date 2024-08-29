@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "Playstation_Img",
+		"path": "C:/Users/4BT/Downloads/Compressed/Playstation_Img"
+	},
+	{
+		"name": "project2",
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "project2"
+  }
+}

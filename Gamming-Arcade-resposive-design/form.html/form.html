@@ -1,0 +1,92 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form practice</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <form action="https://www.reddit.com/search">
+      <input type="text" name="search_query" />
+      <button type="submit">youtube search</button>
+    </form>
+    <form>
+      <select name="op" id="op">
+        <option value="a">A</option>
+        <option value="b">B</option>
+        <option value="c">C</option>
+      </select>
+      <button type="submit">submit</button>
+    </form>
+    <p>
+      <label for="request">Any special request</label>
+      <br />
+      <textarea name="request" id="request" cols="30" rows="10"></textarea>
+    </p>
+    <form action="/dummay">
+      <p>
+        <label for="username">Enter user name</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          required
+          minlength="10"
+          maxlength="20"
+        />
+      </p>
+      <button type="submit">submit</button>
+    </form>
+    <form action="">
+      <h1>Race Registration</h1>
+      <div>
+        <label for="fname">Frist Name</label>
+        <input type="text" name="First_name" id="fname" />
+      </div>
+      <div>
+        <label for="lname">Last Name</label>
+        <input type="text" name="Last_name" id="lname" />
+      </div>
+      <div>
+        <label for="type">Select a Race: <br /></label>
+        <input type="radio" name="type" id="type1" value="Fun" />
+        <label for="type1">Fun Run 5k <br /></label>
+        <input type="radio" name="type" id="type2" value="half" />
+        <label for="type2">Half Marathon <br /></label>
+        <input type="radio" name="type" id="type3" value="full" />
+        <label for="type3">Full Marathon</label>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <label for="pasword">Password</label>
+        <input type="password" name="password" id="pasword" />
+      </div>
+      <div>
+        <label for="age_group">Select an Age Group</label>
+        <select name="age_group" id="age_group">
+          <option value="18-30">18-30</option>
+          <option value="30-40">30-40</option>
+          <option value="40-50">40-50</option>
+        </select>
+      </div>
+      <button type="submit">Register!</button>
+    </form>
+
+    <section>
+      <!-- SHOULD NOT BE USING h1's like this!  -->
+      <!-- ONLY ONE PER DOCUMENT! -->
+      <h1>Transform me!</h1>
+      <h1>Transform me!</h1>
+      <h1>Transform me!</h1>
+      <h1>Transform me!</h1>
+    </section>
+
+    <section>
+      <h1>Transform me!</h1>
+      <h1>Transform me!</h1>
+      <h1>Transform me!</h1>
+      <h1>Transform me!</h1>
+    </section>
+  </body>
+</html>
