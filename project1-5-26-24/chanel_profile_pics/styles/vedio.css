@@ -1,0 +1,58 @@
+.thumbnails {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.vedio-info {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profile-pic {
+  margin-top: 5px;
+  width: 40px;
+  border-radius: 50px;
+}
+.vedio-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(17, 16, 16);
+  width: 200px;
+  line-height: 20px;
+
+  margin-bottom: 0px;
+}
+.vedio-author {
+  font-size: 15px;
+  color: rgb(96, 96, 96);
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.vedio-stats {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+.vedio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 40px;
+  width: 300px;
+}
+.vedio-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 5px;
+  bottom: 12px;
+  padding: 4px;
+  border-radius: 2px;
+  font-size: 12px;
+}
+.thumbnails-row {
+  position: relative;
+}

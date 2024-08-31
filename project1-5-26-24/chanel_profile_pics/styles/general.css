@@ -1,0 +1,10 @@
+p {
+  font: Roboto;
+  margin: 0px;
+}
+body {
+  margin: 0px;
+  padding-top: 80px;
+  padding-left: 95px;
+  background-color: rgb(250, 250, 250);
+}

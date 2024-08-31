@@ -1,0 +1,4 @@
+<p></p> for paragraph 
+<a></a> anchre (href html attributes)
+href attribute of <a> which we use to specify thr destination location 
+target location we use it to specify if the website would open in the same page or the next page
